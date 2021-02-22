@@ -1,0 +1,179 @@
+body{background: #fff url(../img/bg.jpg);}
+#wrap{
+	padding: 10px 10px 3px 10px;
+	width: 860px;
+	margin: 10px auto;
+	background: transparent;
+}
+#meni { 
+	font-size: 90%; 
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3px;
+	width: 860px;
+	height: 50px;
+	font-family: Verdana, Arial;
+} 
+#meni ul { 
+	list-style: none; 
+	margin: 0; 
+	padding: 0; 
+	padding-top: 1em; 
+} 
+#meni li { 
+	display: inline;
+ 	float: left;
+ 	width: 172px;
+} 
+#meni a { 
+	padding: 0.4em 1em 0.4em 1em; 
+	color: #e6b3b3; 
+	background-color: #990000 ; 
+	text-decoration: none; 
+	border: 2px solid #e6b3b3; 
+	border-radius: 1px;
+	float: left;
+	width: 142px; /*velicina celje*/
+	text-align: center;
+} 
+#meni a:hover { 
+	color: #cccccc; 
+	background-color: rgba(0,0,0, 0.9); ; 
+}
+#header img{
+	width: 860px;
+	height: 200px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1px;
+	opacity: 1;
+}
+#footer{
+	position:fixed;
+   	bottom:0px;
+   	width: 860px;
+   	height: 40px; 
+   	color: white;
+   	background:rgba(255,0,0,0.8);
+   	border-top: 1px solid rgba(255, 255, 255, 0.3);
+   	text-shadow:1px 1px 1px #e6b3b3;
+   	box-shadow: inset 0 1px rgba(255,255,255,0.3), inset 0 10px rgba(255,255,255,0.2), inset 0 10px 20px rgba(255,255,255,0.25), inset 0 -15px 30px rgba(0,0,0,0.3);
+}
+#tim {
+	float: left;
+	padding-left: 10px;
+	display: inline;
+}
+#datum {
+	float: right;
+	padding-right: 10px;
+	display: inline;
+}
+#content {
+	background-color: rgba(255,0,0,0.3); 
+	color: #e6b3b3;
+	position: absolute;
+	width: 840px;
+	text-align: justify;
+	margin-bottom: 40px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-family: Verdana, Arial;
+	font-size: 14px;
+	margin-top: 30px;
+}
+
+#dropdown {
+	display: none;
+}
+
+.profilslike {
+	border-radius: 10px;
+	border: 1px #ffff00 solid;
+	width: 860px;
+	height: 200px;
+	display: block;
+	margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1px;
+	opacity: 1;
+
+}
+
+.hederi{
+	opacity: 0.5;
+}
+
+.text{
+	text-align: justify;
+	font-family: Verdana, Arial;
+	font-size: 14px;
+}
+
+#container{
+	position: absolute;
+	top: 50px;
+	left: 260px;
+}
+
+#telefon{
+    font-family: Comic Sans MS;
+    font-size: 30px;
+    top: 240px;
+    left: 540px;
+    position: absolute;
+    background: rgba(255,0,0,0.3);
+    }
+
+ #adresa{
+    font-family: Comic Sans MS;
+    font-size: 30px;
+    top: 240px;
+    left: 0px;
+    position: absolute;
+    background: rgba(255,0,0,0.3);
+    }
+
+
+
+ #pronadji{
+ 	 font-family: Comic Sans MS;
+    font-size: 20px;
+    top: 540px;
+    left: 255px;
+    position: absolute;
+    background: rgba(255,0,0,0.3);
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+
+}
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+ #pravilo{
+ 	 font-family: Comic Sans MS;
+    font-size: 20px;
+    top: 540px;
+    left: 875px;
+    position: absolute;
+    background: rgba(255,0,0,0.3);
+}
